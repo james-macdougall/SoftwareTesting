@@ -179,7 +179,7 @@ public class GraphicalUserInterface {
 					//data[row][col] = val;
 					data.get(row).set(col, val);
 					
-					// EDITS START HERE----------------------
+					// EDIT START HERE----------------------
 					System.out.println("The data1 value = "+ val+ " row = "+row+" col = "+col);
 					
 					ArrayList<String> names = allData.getListInstructors(); //added the function getInstructors to ScheduleData
